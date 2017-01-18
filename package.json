@@ -1,0 +1,19 @@
+{
+  "name": "webpack-config",
+  "version": "1.0.0",
+  "description": "We commonly use the same webpack features in our repos, we can share the same webpack config. If we use npm environment variables, then the webpack config can be agnostic to the repo. [Here is an example](webpack.config.js) feel free to use it in your repo. Build with npm scripts: ``` {   \"name\": \"foo\",   \"version\": \"1.2.3\",   \"main\": \"src/foo\",   \"scripts\": {     \"build\": \"webpack && npm run build:production\",     \"build:production\": \"NODE_ENV=production webpack\",   },   \"devDependencies\": {   } } ``` Build with `npm run build` and this will build a minified and non minified version of this repository's code in dist/",
+  "main": "webpack.config.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/holidayextras/webpack-config.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/holidayextras/webpack-config/issues"
+  },
+  "homepage": "https://github.com/holidayextras/webpack-config#readme"
+}
